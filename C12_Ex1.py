@@ -12,7 +12,7 @@ try:
 #cmd = b'GET '+URL+' HTTP/1.0\r\n\r\n'
     mysock.send(cmd)
 except:
-    invalid email address
+    print(" Invalid URL"")
 
 while True:
     data = mysock.recv(512)
